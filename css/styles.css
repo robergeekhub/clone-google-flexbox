@@ -24,3 +24,18 @@ img{
     width: 1.2em;
     height: auto;
 }
+
+section{
+    background-color: blue;
+    margin-top: 4em;
+    margin-left: 28em;
+    display: flex;
+    flex-direction: row;
+    width: 20em;
+    height: 13em;
+}
+
+.google{
+    width: 40em;
+    height: 13em;
+}
