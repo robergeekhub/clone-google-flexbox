@@ -67,8 +67,8 @@ section{
 .icono-buscador{
     display: flex;
     position: absolute;
-    width: 1em;
-    height: 1.5em;
+    width: 0.9em;
+    height: 1.4em;
     margin-left: 1.5em;
 }
 
@@ -78,4 +78,26 @@ section{
     width: 1em;
     height: 1.5em;
     margin-left: 35em;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items:flex-end;
+    margin-top: 18em;
+}
+
+.f-input{
+    background-color: aliceblue;
+    border-radius: 3em;
+    height: 2em;
+    width: 9.5em;
+    border: 0.1em solid gainsboro;
+    box-shadow: 0em 0em 0.1em 0.1em gainsboro;
+}
+
+::placeholder{
+    color: rgb(26 115 232);
+    cursor: pointer;
 }
